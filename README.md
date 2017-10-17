@@ -13,7 +13,7 @@ Watch a [demo](http://htmlpreview.github.io/?https://github.com/dkwingsmt/ReactI
 
 ### Installation
 
-`npm install --save react-edit-replace`
+`npm install --save react-edit-inplace`
 
 ### Required props
 - `text`:`string` initial text
@@ -35,7 +35,7 @@ Watch a [demo](http://htmlpreview.github.io/?https://github.com/dkwingsmt/ReactI
 ### Usage example
 ```javascript
 import React from 'react';
-import InlineEdit from 'react-edit-inline';
+import InlineEdit from 'react-edit-inplace';
 
 class MyParentComponent extends React.Component {
 
