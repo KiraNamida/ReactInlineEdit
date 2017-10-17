@@ -1,12 +1,15 @@
+> This is a fork to the now unmaintained project [react-inline-edit](https://github.com/kaivi/ReactInlineEdit).
+> Only minimal maintainance will be provided, and __no new features will be accepted__. 
+
 # Inline Edit Component for React
 
-Before you continue, check out a successor to this repo: [React Inline Edit Kit](https://github.com/kaivi/riek). It is more functional, and will be maintained in future.
+[![npm version](https://badge.fury.io/js/react-edit-inplace.svg)](https://badge.fury.io/js/react-edit-inplace) 
 
 This is a simple React component for in-place text editing. It turns into an `<input />` when focused, and tries to validate and save input on <kbd>Enter</kbd> or `blur`. <kbd>Esc</kbd> works as well for cancelling.
 
 ![Example animation gif](http://i.imgur.com/8vig5m1.gif)
 
-Watch a [demo](http://htmlpreview.github.io/?https://github.com/kaivi/ReactInlineEdit/blob/master/demo/index.html), then check out [demo/index.jsx](demo/index.jsx) for a quick example.
+Watch a [demo](http://htmlpreview.github.io/?https://github.com/dkwingsmt/ReactInlineEdit/blob/master/demo/index.html), then check out [demo/index.jsx](demo/index.jsx) for a quick example.
 
 ### Installation
 
