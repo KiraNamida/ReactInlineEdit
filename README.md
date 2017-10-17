@@ -13,7 +13,7 @@ Watch a [demo](http://htmlpreview.github.io/?https://github.com/dkwingsmt/ReactI
 
 ### Installation
 
-`npm install react-edit-inline --save-dev`
+`npm install --save react-edit-replace`
 
 ### Required props
 - `text`:`string` initial text
