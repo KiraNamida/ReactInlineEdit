@@ -1,3 +1,12 @@
+1.1.0 / 2017-10-16
+==================
+* Move `react` and `prop-types` from `dependencies` to `peerDependencies`.
+
+1.0.9 / 2017-10-16
+==================
+* Republish the package under name `react-edit-inplace`.
+* Merged PR [#35](https://github.com/kaivi/ReactInlineEdit/pull/35)
+  - Update propTypes usage to allow React 16.
 
 1.0.8 / 2016-11-07
 ==================
