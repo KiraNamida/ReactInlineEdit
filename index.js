@@ -1,10 +1,10 @@
 'use strict';
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = require('react');
 
@@ -34,7 +34,7 @@ var InlineEdit = function (_React$Component) {
     _inherits(InlineEdit, _React$Component);
 
     function InlineEdit() {
-        var _ref;
+        var _Object$getPrototypeO;
 
         var _temp, _this, _ret;
 
@@ -44,7 +44,7 @@ var InlineEdit = function (_React$Component) {
             args[_key] = arguments[_key];
         }
 
-        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = InlineEdit.__proto__ || Object.getPrototypeOf(InlineEdit)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
+        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_Object$getPrototypeO = Object.getPrototypeOf(InlineEdit)).call.apply(_Object$getPrototypeO, [this].concat(args))), _this), _this.state = {
             editing: _this.props.editing,
             text: _this.props.text,
             minLength: _this.props.minLength,
@@ -135,9 +135,9 @@ var InlineEdit = function (_React$Component) {
                     this.state.text || this.props.placeholder
                 );
             } else if (!this.state.editing) {
-                var _Element = this.props.element || this.props.staticElement;
+                var Element = this.props.element || this.props.staticElement;
                 return _react2.default.createElement(
-                    _Element,
+                    Element,
                     {
                         className: this.props.className,
                         onClick: this.startEditing,
@@ -146,8 +146,8 @@ var InlineEdit = function (_React$Component) {
                     this.state.text || this.props.placeholder
                 );
             } else {
-                var _Element2 = this.props.element || this.props.editingElement;
-                return _react2.default.createElement(_Element2, {
+                var Element = this.props.element || this.props.editingElement;
+                return _react2.default.createElement(Element, {
                     onClick: this.clickWhenEditing,
                     onKeyDown: this.keyDown,
                     onBlur: this.finishEditing,
