@@ -1,3 +1,7 @@
+1.1.1 / 2017-10-27
+==================
+* Update peer dependencies to allow React 15.6.x
+
 1.1.0 / 2017-10-16
 ==================
 * Move `react` and `prop-types` from `dependencies` to `peerDependencies`.
